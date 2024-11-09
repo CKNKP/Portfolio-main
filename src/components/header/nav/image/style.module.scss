@@ -3,7 +3,7 @@
   // transform: rotateX(30deg) rotateY(-10deg);
 }
 
-// .imageContainer > img {
+// .imageContainer > Image {
 //   border-radius: var(--radius);
 // }
 
@@ -14,7 +14,7 @@
     height: 450px;
     position: relative;
 
-    img {
+    Image {
       object-fit: cover;
     }
   }
