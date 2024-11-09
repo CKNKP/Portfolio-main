@@ -7,6 +7,7 @@ import {
   animate,
   useAnimationControls,
 } from "framer-motion";
+import Image from "next/image";
 
 const getRandomHeight = () => {
   return `${Math.random() * 100}vh`;
