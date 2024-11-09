@@ -582,7 +582,7 @@ const projects: Project[] = [
             hidden, while your voice is heard. Say what you want, without the
             worry.
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          <ProjectsLinks live={this.live} />
           <SlideShow
             images={[
               `${BASE_PATH}/ghostchat/1.png`,
