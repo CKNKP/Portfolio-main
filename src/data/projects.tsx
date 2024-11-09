@@ -259,7 +259,6 @@ const projects: Project[] = [
       ],
     },
     live: "https://www.codingducks.xyz/",
-    github: "https://github.com/Naresh-Khatri/Coding-Ducks",
     get content() {
       return (
         <div>
@@ -272,7 +271,7 @@ const projects: Project[] = [
             warrior. Track your progress, flex your brain, and climb the
             leaderboard. Ready to quack the code?
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          <ProjectsLinks live={this.live} />
           <TypographyH3 className="my-4 mt-8">Problems </TypographyH3>
           <p className="font-mono mb-2">
             Solve coding problems similar to LeetCode, enhancing your
@@ -368,7 +367,7 @@ const projects: Project[] = [
             discounts or trying to save a buck at your favorite stores,
             CouponLuxury&apos;s got you covered.
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          <ProjectsLinks live={this.live}/>
           <p className="font-mono mb-2 mt-4">
             As soon as you land, boom! You&apos;re greeted with the freshest
             coupons and top-tier deals that&apos;ll make your wallet happy.
@@ -501,7 +500,7 @@ const projects: Project[] = [
     src: "/assets/projects-screenshots/portfolio/landing.png",
     screenshots: ["1.png"],
     live: "http://nareshkhatri.vercel.app",
-    github:"https://github.com/Naresh-Khatri/Portfolio",
+    github:"https://github.com/CKNKP/Portfolio-main",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -622,7 +621,7 @@ const projects: Project[] = [
             its users, offering a range of features that made result analysis
             faster and more efficient. Here&apos;s what made it stand out:
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          <ProjectsLinks live={this.live} />
           <SlideShow images={[`${BASE_PATH}/jra/1.png`]} />
           <TypographyH3 className="my-4 mt-8">
             Effortless Results Retrieval
